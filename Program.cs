@@ -15,5 +15,8 @@ class Program
         string firstFriend = "NaNa";
         string secondFriend = "RUBY";
         Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
+        //文字の長さ表示Length
+        Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
+Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
     }
 }
