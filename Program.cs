@@ -17,6 +17,14 @@ class Program
         Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
         //文字の長さ表示Length
         Console.WriteLine($"The name {firstFriend} has {firstFriend.Length} letters.");
-Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+        Console.WriteLine($"The name {secondFriend} has {secondFriend.Length} letters.");
+
+        //挨拶してみる。。＝W=
+        string sayHello = "Hello World!";
+        Console.WriteLine(sayHello);
+        sayHello = sayHello.Replace("Hello", "Greetings");
+        Console.WriteLine(sayHello);
+        Console.WriteLine(sayHello.ToUpper());
+Console.WriteLine(sayHello.ToLower());
     }
 }
